@@ -1,0 +1,60 @@
+.h1_title_style
+{
+    text-align: center;
+    font-family: 'Arial';
+    color: #2f3640;
+}
+
+#body_style
+{
+    background-color:  #dcdde1;
+}
+
+/* Main calculator container */
+.calculator_style
+{
+    background-color: #2f3640;
+    padding: 30px; 
+    border-radius: 30px; 
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Center calculator in the page*/
+.container
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for calculator buttons */
+.calculator_style input[type="button"]
+{
+    width: 60px;
+    height: 60px;
+    background-color: #718093;
+    margin: 3px;    
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hover effect for better user experience */
+.calculator_style input[type="button"]:hover
+{
+    background-color: #dcdde1;
+    color: black;
+}
+
+/* Display input styling */
+#display
+{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px; 
+    font-size: 20px;
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+}

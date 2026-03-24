@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8"> <!-- This website uses "UTF-8" characters encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple web calculator built with HTML, CSS and JavaScript">
+    <meta name="author" content="Francesco Cerrato">
+    <title>Simple web calculator</title>
+    <link rel="stylesheet" href="web_calculator_styles.css">
+</head>
+
+<body id="body_style">
+
+    <!-- Calculator title -->
+    <h1 class="h1_title_style"> Web Calculator </h1>
+
+    <div class="container">
+        <div class="calculator_style">  
+            
+            <!-- Display (readonly to prevent manual typing)-->
+            <div>
+                <input type="text" id="display" readonly>
+            </div>
+            
+            <!-- Calculator buttons -->
+            <div>
+                <input type="button" value="7" class="btn">
+                <input type="button" value="8" class="btn">
+                <input type="button" value="9" class="btn">
+                <input type="button" value="+" class="btn">
+            </div>
+    
+            <div>
+                <input type="button" value="6" class="btn">
+                <input type="button" value="5" class="btn">
+                <input type="button" value="4" class="btn">
+                <input type="button" value="-" class="btn">
+            </div>
+    
+            <div>
+                <input type="button" value="3" class="btn">
+                <input type="button" value="2" class="btn">
+                <input type="button" value="1" class="btn">
+                <input type="button" value="*" class="btn">
+            </div>
+
+            <div>
+                <input type="button" value="0" class="btn">
+                <input type="button" value="C" class="btn">
+                <input type="button" value="=" class="btn">
+                <input type="button" value="/" class="btn">
+            </div>
+        </div>
+    </div>
+
+    <script src="web_calculator_js.js"> </script>
+</body>
+
+
+</html>

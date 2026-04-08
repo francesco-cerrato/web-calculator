@@ -37,7 +37,7 @@ function calculate_result()
 }
 
 // Loop trough all buttons
-all_buttons.forEach(button => {button.addEventListener("click", function () //DOPO RICORDA I COMMENTI PER TUTTO
+all_buttons.forEach(button => {button.addEventListener("click", function ()
 {
     // Reset display if previous result was an error
     if (display_text.value == "Error!") 
